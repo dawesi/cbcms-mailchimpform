@@ -1,0 +1,34 @@
+{
+    "name":"ContentBox Mailchimp Form Module",
+    "version":"1.0.1",
+    "location":"gpickin/cbcms-mailchimpform#v1.0.1",
+    "author":"Gavin Pickin",
+    "homepage":"https://github.com/gpickin/cbcms-mailchimpform",
+    "documentation":"https://github.com/gpickin/cbcms-mailchimpform",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/gpickin/cbcms-mailchimpform"
+    },
+    "bugs":"https://github.com/gpickin/cbcms-mailchimpform/issues",
+    "slug":"cbcms-mailchimpform",
+    "shortDescription":"Mailchimp Form Module for Contentbox 3",
+    "instructions":"https://github.com/gpickin/cbcms-mailchimpform",
+    "type":"contentbox-modules",
+    "keywords":[
+        "Mailchimp",
+        "Form",
+        "Mail"
+    ],
+    "scripts":{
+        "postVersion":"package set location='gpickin/cbcms-mailchimpform#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push origin master && !git push origin master --tags"
+    },
+    "private":false,
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/gpickin/cbcms-mailchimpform/blob/master/LICENSE"
+        }
+    ]
+}
